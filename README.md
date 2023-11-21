@@ -60,7 +60,7 @@
 
 ### Installation
 
-1. Get a API Key at [ZeroBounce API](https://www.zerobounce.net/) -- only 5 free credits
+1. Get an API Key at [ZeroBounce API](https://www.zerobounce.net/) -- only 5 free credits
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
@@ -69,10 +69,15 @@
    ```sh
    npm install
    ```
-4. Enter your API in `src/config.js`
+4. Enter your API in `public/config.js`
     ```
     const REACT_APP_API_KEY = "YOUR API KEY";
     ```
+5. Enter `npm run build` in the terminal
+6. Upload the created dist folder in [chrome://extensions/]
+   - Make sure **Developer Mode** is on
+   - Click **Load Unpacked**
+   - Select the `dist` folder from your repo
 
 <!-- ROADMAP -->
 ## Roadmap
